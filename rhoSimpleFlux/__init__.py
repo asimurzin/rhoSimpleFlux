@@ -26,7 +26,7 @@
 
 #---------------------------------------------------------------------------
 from Foam import FOAM_VERSION
-if FOAM_VERSION( "==", "010600" ) and FOAM_VERSION( "<", "020000" ):
+if FOAM_VERSION( "==", "010600" )
     from rhoSimpleFlux.r1_6 import *
     pass
 
